@@ -1,5 +1,7 @@
 # imgur-blob-store
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/goto-bus-stop/imgur-blob-store.svg?token=aa1cfd09a0130fb7344a135dd3e3666a8017305eb81d272734d7ee5d8a548526&ts=1497097575297)](https://greenkeeper.io/)
+
 A [blob store](https://github.com/maxogden/abstract-blob-store) that stores images on Imgur.
 
 [![blob-store-compatible](https://raw.githubusercontent.com/maxogden/abstract-blob-store/master/badge.png)](https://github.com/maxogden/abstract-blob-store)
