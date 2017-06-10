@@ -1,0 +1,27 @@
+{
+  "name": "imgur-blob-store",
+  "version": "0.0.0",
+  "description": "blob store that saves files to imgur",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "keywords": [
+    "abstract-blob-store",
+    "blob-store",
+    "imgur"
+  ],
+  "author": "Renée Kooi <renee@kooi.me>",
+  "license": "MIT",
+  "dependencies": {
+    "defined": "^1.0.0",
+    "got": "^7.0.0",
+    "imgur-uploader": "^4.2.0",
+    "pump": "^1.0.2",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "abstract-blob-store": "^3.2.0",
+    "tape": "^4.6.3"
+  }
+}
