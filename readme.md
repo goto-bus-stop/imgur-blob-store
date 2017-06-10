@@ -55,7 +55,7 @@ Returns a writable stream.
 
 `cb` is called with `(err, metadata)` when the upload failed or completed.
 `metadata` is the `data` object returned by imgur (https://apidocs.imgur.com/#58306db8-0a6f-4aa1-a021-bdad565f153e).
-Someuseful properties are:
+Some useful properties are:
 
  * `key` - The ID of the image, for use with `createReadStream` and other methods
  * `deletehash` - The deletehash of the image, for use with `remove()`
