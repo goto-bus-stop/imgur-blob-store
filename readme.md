@@ -51,7 +51,7 @@ Available `options` are:
 ### imgur.createWriteStream(options, cb)
 
 Returns a writable stream.
-`options` is optional and does not do anything.
+`options` is optional and ignored, imgur will assign a key for you.
 
 `cb` is called with `(err, metadata)` when the upload failed or completed.
 `metadata` is the `data` object returned by imgur (https://apidocs.imgur.com/#58306db8-0a6f-4aa1-a021-bdad565f153e).
