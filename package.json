@@ -1,6 +1,6 @@
 {
   "name": "imgur-blob-store",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "blob store that saves files to imgur",
   "main": "index.js",
   "scripts": {
