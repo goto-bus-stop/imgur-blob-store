@@ -59,7 +59,7 @@ Some useful properties are:
 
  * `key` - The ID of the image, for use with `createReadStream` and other methods
  * `deletehash` - The deletehash of the image, for use with `remove()`
- * `link` - The publically accessible for the image
+ * `link` - The publically accessible URL to the image
  * `type` - Detected mime type
  * `width` / `height` - Image dimensions
  * `size` - Size of the image in bytes, this can be different from the original size because imgur compresses images
